@@ -1,7 +1,6 @@
 '''
-Homework 5: 15-Puzzle Solver using A* Manhattan Distance
+15-Puzzle Solver using A* Manhattan Distance
 Name: Mubashra Sohail
-netid: msoha3
 '''
 
 import time
@@ -153,4 +152,5 @@ def main():
     print(f"Total searching time: {round((end_time - start_time), 3)} seconds")
 
 if __name__ == "__main__":
+
     main()
